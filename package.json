@@ -1,0 +1,55 @@
+{
+  "name": "blue-vscode-theme",
+  "displayName": "Blue (Vim Port)",
+  "description": "A port of Vim's \"blue.vim\" colorscheme: dark blue background with gold text, with bold and no-bold variants.",
+  "version": "1.0.0",
+  "publisher": "r11s",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "galleryBanner": {
+    "color": "#000087",
+    "theme": "dark"
+  },
+  "icon": "assets/icon.png",
+  "license": "Vim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r11s/blue-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/r11s/blue-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/r11s/blue-vscode-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blue (Vim Port)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-color-theme.json"
+      },
+      {
+        "label": "Blue (Vim Port, no bold)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-color-theme-no-bold.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "vim",
+    "blue",
+    "colorscheme",
+    "classic",
+    "vscode-theme"
+  ],
+  "author": "Port by Rainer Strauss (original blue.vim by Steven Vertigan)"
+}
