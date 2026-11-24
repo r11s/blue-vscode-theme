@@ -2,7 +2,7 @@
   "name": "blue-vscode-theme",
   "displayName": "Blue (Vim Port)",
   "description": "A port of Vim's \"blue.vim\" colorscheme: dark blue background with gold text, with bold and no-bold variants.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "r11s",
   "engines": {
     "vscode": "^1.80.0"

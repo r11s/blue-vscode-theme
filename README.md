@@ -52,14 +52,11 @@ Or install a local `.vsix` via **Extensions: Install from VSIX…**. Then select
 
 ## ⚙️ Recommended Settings
 
-```jsonc
-{
-  "editor.semanticHighlighting.enabled": true,
-  "editor.bracketPairColorization.enabled": false,
-  "editor.guides.bracketPairs": false,
-  "editor.renderWhitespace": "none",
-  "editor.cursorBlinking": "solid"
-}
+VS Code draws some things in its own colors. To get closer to Vim, you can turn these off:
+
+```json
+"editor.bracketPairColorization.enabled": false,
+"editor.semanticHighlighting.enabled": false
 ```
 
 ------
