@@ -35,13 +35,18 @@ The sidebar and panel (`#000075`) are a shade darker than the editor, because Bl
 Not 1:1:
 - Vim’s `Visual` is white on `#008787`. That teal is used only for the editor selection; VS Code cannot switch the text color of a selection, so it keeps the syntax colors.
 - Vim’s `Search` and `MatchParen` are reversed colors. VS Code cannot invert text, so matches get a gold background, and a matching bracket gets a gold border.
-- Diff backgrounds are solid (`#5f875f`, `#af5faf`, `#5f87af`) as in Vim.
+- Diff backgrounds are solid as in Vim: `#5f875f` for added and `#af5faf` for removed text. Changed text has no extra background; `#5f87af` is only used for the modified marker in the gutter and the diagonal fill.
 
 ------
 
 ## 🧩 Installation
 
-Search for **Blue (Vim Port)** by **r11s** in the Extensions view, or install a local `.vsix` via **Extensions: Install from VSIX…**. Then select the theme under **Preferences: Color Theme**.
+Works with **Visual Studio Code** and **VSCodium**. Search for **Blue (Vim Port)** by **r11s** in the Extensions view, or open the page directly:
+
+- VS Code: [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=r11s.blue-vscode-theme)
+- VSCodium: [Open VSX](https://open-vsx.org/extension/r11s/blue-vscode-theme)
+
+Or install a local `.vsix` via **Extensions: Install from VSIX…**. Then select the theme under **Preferences: Color Theme**.
 
 ------
 
